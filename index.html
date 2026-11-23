@@ -1,1 +1,109 @@
-<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ehtiyars Game</title><style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:760px;margin:0 auto;padding:24px 16px;line-height:1.6;color:#1d1440;background:#fbf8ff}h1{font-size:1.6rem}h2{margin-top:2rem;color:#5b3c99}h3{margin-top:1.4rem}a{color:#7a3fd0;word-break:break-word}hr{border:0;border-top:1px solid #ddd;margin:2rem 0}</style></head><body><h1>Ehtiyars Game</h1><p>Bağımsız mobil oyun stüdyosu · Independent mobile game studio</p><h2>Galaxy Paws</h2><p>Pofuduk pilotlar, şeker canavarlar, sonsuz galaksi. · Fluffy pilots, candy monsters, endless galaxy.</p><ul><li><a href="privacy/">Gizlilik Politikası / Privacy Policy</a></li></ul><p>İletişim / Contact: <a href="mailto:ehtiyarsgame@gmail.com">ehtiyarsgame@gmail.com</a></p></body></html>
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ehtiyars Game</title>
+<meta name="description" content="Ehtiyars Game — bağımsız mobil oyun stüdyosu. Galaxy Paws, Lifetide, Dunefall. · Independent mobile game studio.">
+<meta name="theme-color" content="#0d1020">
+<link rel="icon" href="brand/ehtiyars-mark.svg" type="image/svg+xml">
+<meta property="og:title" content="Ehtiyars Game">
+<meta property="og:description" content="Üç oyun, tek stüdyo. · Three games, one studio.">
+<meta property="og:image" content="https://ehtiyarsgame.github.io/brand/png/ehtiyars-banner-1500x500.png">
+<meta property="og:url" content="https://ehtiyarsgame.github.io/">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+  :root { --bg: #0d1020; --card: #171b33; --text: #e8e6ff; --muted: #9aa3c8;
+          --accent: #ffb23e; --line: rgba(154, 163, 200, .22); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 40px 16px 64px; }
+
+  .hero { text-align: center; margin-bottom: 40px; }
+  .hero img { width: 112px; height: 112px; filter: drop-shadow(0 10px 30px rgba(0,0,0,.5)); }
+  .hero h1 { font-size: 30px; margin: 16px 0 4px; letter-spacing: .5px; }
+  .hero p { color: var(--muted); margin: 0; }
+
+  .games { display: grid; gap: 18px; }
+  .game { background: var(--card); border: 1px solid var(--line); border-radius: 20px;
+          padding: 20px; display: grid; grid-template-columns: 86px 1fr; gap: 18px; align-items: start; }
+  .game > img { width: 86px; height: 86px; border-radius: 22px; }
+  .game h2 { margin: 0 0 2px; font-size: 21px; }
+  .game .tr { margin: 0; }
+  .game .en { margin: 2px 0 0; color: var(--muted); font-size: 15px; }
+  .links { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+  .soon { display: inline-block; padding: 7px 14px; border-radius: 999px; font-size: 13px; font-weight: 700;
+          border: 1px dashed var(--line); color: var(--muted); }
+  .play { display: inline-block; padding: 8px 16px; border-radius: 999px; font-size: 14px; font-weight: 800;
+          background: linear-gradient(180deg, #ffcf4d, #ffb23e); color: #2a1503; text-decoration: none; }
+  .links a.small { color: #b9b0ff; font-size: 14px; }
+
+  footer { margin-top: 44px; padding-top: 24px; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: 14px; text-align: center; }
+  footer a { color: #b9b0ff; }
+  @media (max-width: 420px) {
+    .game { grid-template-columns: 1fr; justify-items: center; text-align: center; }
+    .links { justify-content: center; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img src="brand/ehtiyars-mark.svg" alt="Ehtiyars Game">
+    <h1>Ehtiyars Game</h1>
+    <p>Bağımsız mobil oyun stüdyosu · Independent mobile game studio</p>
+  </div>
+
+  <div class="games">
+
+    <!-- Oyun yayına girince: .soon satırını silin, .play bağlantısını açın. -->
+    <article class="game">
+      <img src="brand/games/galaxypaws.png" alt="Galaxy Paws">
+      <div>
+        <h2>Galaxy Paws</h2>
+        <p class="tr">Pofuduk pilotlar, şeker canavarlar, sonsuz galaksi.</p>
+        <p class="en">Fluffy pilots, candy monsters, an endless galaxy.</p>
+        <div class="links">
+          <span class="soon">Yakında Google Play'de · Coming soon</span>
+          <a class="small" href="privacy/">Gizlilik · Privacy</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="game">
+      <img src="brand/games/lifetide.png" alt="Lifetide">
+      <div>
+        <h2>Lifetide</h2>
+        <p class="tr">Bir ömür, binlerce karar. Doğumdan yaşlılığa, mini oyunlarla.</p>
+        <p class="en">One life, a thousand choices — birth to old age, played through mini-games.</p>
+        <div class="links">
+          <span class="soon">Yakında Google Play'de · Coming soon</span>
+          <a class="small" href="lifetide/privacy.html">Gizlilik · Privacy</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="game">
+      <img src="brand/games/dunefall.svg" alt="Dunefall">
+      <div>
+        <h2>Dunefall</h2>
+        <p class="tr">Kumu elinle dökersin. Aynı renk duvardan duvara uzanınca silinir.</p>
+        <p class="en">You pour the sand by hand. One colour, wall to wall, and it clears.</p>
+        <div class="links">
+          <span class="soon">Yakında Google Play'de · Coming soon</span>
+          <a class="small" href="dunefall/privacy.html">Gizlilik · Privacy</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <footer>
+    <p><a href="brand/">Marka kiti · Press kit</a> · <a href="https://instagram.com/ehtiyarsgame">Instagram</a></p>
+    <p>İletişim / Contact: <a href="mailto:ehtiyarsgame@gmail.com">ehtiyarsgame@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>

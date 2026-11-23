@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marka kiti — Ehtiyars Game</title>
+<meta name="theme-color" content="#0d1020">
+<link rel="icon" href="ehtiyars-mark.svg" type="image/svg+xml">
+<style>
+  :root { --bg: #0d1020; --card: #171b33; --text: #e8e6ff; --muted: #9aa3c8; --accent: #ffb23e;
+          --line: rgba(154,163,200,.22); }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 820px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  header img { width: 64px; height: 64px; }
+  h1 { font-size: 26px; margin: 0; } h2 { color: var(--accent); font-size: 19px; margin-top: 34px; }
+  a { color: #b9b0ff; } .muted { color: var(--muted); font-size: 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+  .tile { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px; text-align: center; }
+  .tile img { max-width: 100%; height: 64px; object-fit: contain; }
+  .tile div { font-size: 13px; margin-top: 8px; }
+  table { width: 100%; border-collapse: collapse; }
+  td, th { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); font-size: 15px; }
+  .sw { display: inline-block; width: 18px; height: 18px; border-radius: 5px; vertical-align: -3px; margin-right: 8px; }
+  code { background: #0a0c18; padding: 2px 6px; border-radius: 6px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a href="../"><img src="ehtiyars-mark.svg" alt="Ehtiyars Game"></a>
+    <div><h1>Marka kiti · Press kit</h1>
+    <div class="muted">Ehtiyars Game — logolar, renkler, açılış</div></div>
+  </header>
+
+  <p>Stüdyonun adı "ehtiyar"dan (ihtiyar) geliyor; amblem de o: kulaklıklı, gözlüklü,
+  beyaz bıyıklı, göz kırpan neşeli bir oyuncu dede.</p>
+  <p class="muted">The studio is named after the Turkish <i>ehtiyar</i> ("old man"), and so is the
+  emblem: a cheerful old gamer in headphones and round glasses.</p>
+
+  <h2>Logolar</h2>
+  <div class="grid">
+    <div class="tile"><img src="ehtiyars-mark.svg" alt=""><div>Amblem<br><a href="ehtiyars-mark.svg">SVG</a> · <a href="png/ehtiyars-mark-1024.png">PNG</a></div></div>
+    <div class="tile"><img src="ehtiyars-wordmark-dark.svg" alt=""><div>Yazı<br><a href="ehtiyars-wordmark-dark.svg">SVG</a> · <a href="png/ehtiyars-wordmark-dark.png">PNG</a></div></div>
+    <div class="tile"><img src="ehtiyars-logo-horizontal-dark.svg" alt=""><div>Yatay<br><a href="ehtiyars-logo-horizontal-dark.svg">SVG</a> · <a href="png/ehtiyars-logo-horizontal-dark.png">PNG</a></div></div>
+    <div class="tile"><img src="ehtiyars-logo-stacked-dark.svg" alt=""><div>Dikey<br><a href="ehtiyars-logo-stacked-dark.svg">SVG</a> · <a href="png/ehtiyars-logo-stacked-dark.png">PNG</a></div></div>
+  </div>
+  <p class="muted">Açık zeminde <code>-light</code>, koyu zeminde <code>-dark</code>.
+  Amblemin çevresinde çapının en az %15'i kadar boşluk bırakın; logoyu esnetmeyin, döndürmeyin,
+  renklerini değiştirmeyin.</p>
+
+  <h2>Renkler</h2>
+  <table>
+    <tr><th>Renk</th><th>Kod</th></tr>
+    <tr><td><span class="sw" style="background:#ffcf4d"></span>Gün batımı sarısı</td><td><code>#ffcf4d</code></td></tr>
+    <tr><td><span class="sw" style="background:#ff7b54"></span>Mercan</td><td><code>#ff7b54</code></td></tr>
+    <tr><td><span class="sw" style="background:#9b5cff"></span>Mor</td><td><code>#9b5cff</code></td></tr>
+    <tr><td><span class="sw" style="background:#1a1440"></span>Gece laciverti</td><td><code>#1a1440</code></td></tr>
+    <tr><td><span class="sw" style="background:#0d1020"></span>Koyu zemin</td><td><code>#0d1020</code></td></tr>
+  </table>
+
+  <h2>Açılış</h2>
+  <p>Üç oyun da aynı açılışla başlar: amblem, <b>EHTIYARS GAME</b>, "sunar" / "presents",
+  sonra oyunun kendi logosu. Toplam 3,3 saniye; ekrana dokunmak geçer.</p>
+  <p>HTML oyunların kaynağı bu klasörde: <a href="intro/README.md">intro/</a>
+  (<code>ehtiyars-brand.css</code>, <code>ehtiyars-intro.js</code>,
+  <code>ehtiyars-cross-promo.js</code>). Oyunlara kopyalanır, kopya elle düzenlenmez.
+  Galaxy Paws aynı sırayı Unity'de kendi çizer.</p>
+
+  <h2>Diğer</h2>
+  <p><a href="png/ehtiyars-avatar-1024.png">Profil resmi 1024²</a> ·
+  <a href="png/ehtiyars-banner-1500x500.png">Kapak 1500×500</a> ·
+  <a href="fonts/">Nunito (SIL OFL)</a> ·
+  <a href="README.md">README</a></p>
+
+  <p class="muted" style="margin-top:34px">İletişim / Contact:
+  <a href="mailto:ehtiyarsgame@gmail.com">ehtiyarsgame@gmail.com</a></p>
+</main>
+</body>
+</html>
