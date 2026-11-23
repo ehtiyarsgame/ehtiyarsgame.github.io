@@ -8,8 +8,13 @@ Paketler hazır ve imzalı:
 | Oyun | Paket | Dosya | Sürüm |
 |---|---|---|---|
 | Galaxy Paws | `com.ehtiyarsgame.galaxypaws` | [pofuduk-filo → Releases → **play**](https://github.com/ehtiyarsgame/pofuduk-filo/releases/tag/play) → `PofudukFilo.aab` — 37 MB, 23.11.2026 | CI derler |
-| Lifetide | `com.ehtiyarsgame.lifetide` | `mylife/apk/Lifetide-1.0.1.aab` — 13,5 MB | 1.0.1 (23) |
-| Dunefall | `com.ehtiyarsgame.dunefall` | `dunefall/apk/Dunefall-1.0.aab` — 3,8 MB | 1.0 (1) |
+| Lifetide | `com.ehtiyarsgame.lifetide` | [mylife → Releases → **play**](https://github.com/ehtiyarsgame/mylife/releases/tag/play) → `Lifetide-1.0.1.aab` — 13,5 MB | 1.0.1 (23) |
+| Dunefall | `com.ehtiyarsgame.dunefall` | [dunefall → Releases → **play**](https://github.com/ehtiyarsgame/dunefall/releases/tag/play) → `Dunefall-1.0.aab` — 3,8 MB | 1.0 (1) |
+
+Üç `play` release'inin her birinde paketin yanında bir de `*-store-graphics.zip`
+duruyor: ikon 512², öne çıkan 1024×500 ve ekran görüntüleri. Böylece yükleme
+PC'nin başında olmadan da yapılabilir — telefondan release sayfasını açıp
+indirmek yeterli (Dunefall ve Galaxy Paws özel depoda, GitHub oturumu gerekir).
 
 Üçünün imzası da `apksigner` / `keytool` ile anahtarın parmak iziyle
 karşılaştırılıp doğrulandı (parmak izleri `keystore/README.md`'de).
